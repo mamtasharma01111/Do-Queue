@@ -1,6 +1,5 @@
 import React from 'react';
 import { Toaster } from 'sonner';
-import './App.css';
 
 function App() {
 
