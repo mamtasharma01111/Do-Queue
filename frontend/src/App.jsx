@@ -1,10 +1,12 @@
-import React from 'react'
-import './App.css'
+import React from 'react';
+import { Toaster } from 'sonner';
 
 function App() {
+
   return (
     <>
-      <p className='p-4 bg-red-900'>Hiii</p>
+    <Toaster richColors position='top-right' />
+    <p className="text-3xl font-bold underline p-3">Good Morning</p>
     </>
   )
 }
